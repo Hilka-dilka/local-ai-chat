@@ -1,9 +1,8 @@
-Local AI Chat
+# Local AI Chat
 
 A minimalist AI chat interface built with Python, featuring image/file support and real-time response streaming.
 
-Features
-Feature	Description
+## Features
 UI	Minimalist gray theme with history sidebar
 Sessions	Create new chats and switch between sessions
 Images	Base64 image support for Vision-capable models
@@ -17,7 +16,7 @@ AUTO | Gemini | GPT-4o | DeepSeek | Claude
 
 Includes automatic provider fallback.
 
-Installation and Setup
+## Installation and Setup
 * Go to the repository page. 
 - Click the green Code button. 
 - Select Download ZIP. 
@@ -27,19 +26,19 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Access the interface at: http://127.0.0.1:5000
+**Access the interface at: http://127.0.0.1:5000**
 
-Usage Guide
+## Usage Guide
 
-Select a model from the header.
+- Select a model from the header.
 
-Use the "Photo" or "File" buttons to upload attachments.
+- Use the "Photo" or "File" buttons to upload attachments.
 
-Send a message to initiate streaming.
+- Send a message to initiate streaming.
 
-History is automatically saved; use "New Chat" to start a fresh session.
+- History is automatically saved; use "New Chat" to start a fresh session.
 
-Technical Details
+## Technical Details
 
 Responsive Design: Mobile-friendly sidebar and layout.
 
