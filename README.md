@@ -29,6 +29,7 @@ python app.py
 ```
 
 **Access the interface at: http://127.0.0.1:5000 or http://localhost:5000**
+**To turn it off, press Ctrl + c in the cmd or just close the cmd.**
 
 ## Usage Guide
 
