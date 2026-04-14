@@ -18,6 +18,10 @@ AUTO | Gemini | GPT-4o | DeepSeek | Claude
 Includes automatic provider fallback.
 
 Installation and Setup
+* Go to the repository page. 
+- Click the green Code button. 
+- Select Download ZIP. 
+- Extract the archive to any folder on your computer.
 ```bash
 pip install -r requirements.txt
 python app.py
