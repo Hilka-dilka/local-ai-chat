@@ -26,7 +26,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-**Access the interface at: http://127.0.0.1:5000**
+**Access the interface at: http://127.0.0.1:5000 or localhost:5000**
 
 ## Usage Guide
 
