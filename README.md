@@ -21,7 +21,9 @@ Includes automatic provider fallback.
 - Click the green Code button. 
 - Select Download ZIP. 
 - Extract the archive to any folder on your computer.
+- Open CMD as administrator and run these commands one by one:
 ```bash
+cd C:where the folder are located
 pip install -r requirements.txt
 python app.py
 ```
