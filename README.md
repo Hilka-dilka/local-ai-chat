@@ -1,41 +1,48 @@
-# Local AI Chat на Python 🚀
+Local AI Chat
 
-**Простой красивый серый чат как ChatGPT** с **файлами/изображениями + стримингом ответов**.
+A minimalist AI chat interface built with Python, featuring image/file support and real-time response streaming.
 
-## ✨ Все функции
-| Функция | Описание |
-|---------|----------|
-| 🎨 | Серый дизайн, сайдбар с историей |
-| ➕ | **Новый чат** + переключение |
-| 🖼️ | **Загрузка изображений** (base64 для vision моделей) |
-| 📄 | **Загрузка файлов** (.txt append в текст) |
-| ⚡ | **Стриминг**: "Думаю..." → печатает ответ живьём |
-| 📊 | Модель+провайдер **над каждым ответом** |
-
-## 🎯 Модели
+Features
+Feature	Description
+UI	Minimalist gray theme with history sidebar
+Sessions	Create new chats and switch between sessions
+Images	Base64 image support for Vision-capable models
+Files	Text file processing and injection
+Streaming	Real-time "typing" effect for AI responses
+Metadata	Displays model and provider information for every response
+Supported Models
 ```
 AUTO | Gemini | GPT-4o | DeepSeek | Claude
 ```
-Авто-fallback провайдеров.
 
-## 🛠 Установка / Запуск
+Includes automatic provider fallback.
+
+Installation and Setup
 ```bash
 pip install -r requirements.txt
 python app.py
 ```
-👉 **http://127.0.0.1:5000**
 
-## 📱 Как пользоваться
-1. Выберите модель в хедере
-2. Клик **"Фото"** / **"Файл"** в композере
-3. Пишите / отправляйте → **стриминг** + мета над ответом
-4. **Новый чат** → сохраняется в истории
+Access the interface at: http://127.0.0.1:5000
 
-## Адаптивно 📱
-- Мобильная: выдвижная панель
-- Авто-scroll, typing индикатор
+Usage Guide
 
-## ⚠️ Советы
-- `pip install -U g4f` при ошибках
-- Большие файлы → лимит 2k символов
-- Vision лучше на GPT-4o/Gemini
+Select a model from the header.
+
+Use the "Photo" or "File" buttons to upload attachments.
+
+Send a message to initiate streaming.
+
+History is automatically saved; use "New Chat" to start a fresh session.
+
+Technical Details
+
+Responsive Design: Mobile-friendly sidebar and layout.
+
+Auto-scroll: Automatic scrolling with active typing indicators.
+
+Library Updates: Run pip install -U g4f to resolve provider issues.
+
+File Limits: Large files are truncated to a 2,000 character limit.
+
+Vision: Best performance achieved using GPT-4o or Gemini models.
